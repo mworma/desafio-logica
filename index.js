@@ -25,42 +25,43 @@ Se XP for maior ou igual a 10.001 = Radiante
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"*/
 
-let heroi = "Marcelo"
-let xp = 0
-let nivel = "Ferro"
+let heroi = prompt("Digite o nome do Herói: ");
+let forca = prompt("Digite o XP do Herói: ");
+let nivel = "";
+let XP = (forca * 1)
+let msgInicio = "O Herói de nome ";
+let msgFim =  " está no nível de ";
 
-Switch xp{
-    case <= 1.000
-    nivel = "Ferro"
-    break
-
-    case <= 2.000
-    nivel = "Bronze"
-    break
-
-    case <= 5.000
-    nivel = "Prata"
-    break
-
-    case <= 7.000
-    nivel = "Ouro"
-    break
-
-    case <= 8.000
-    nivel = "Platina"
-    break
-
-    case <= 9.000
-    nivel = "Ascendente"
-    break
-
-    case <= 10.000
-    nivel = "Imortal"
-    break
-
-    default
-    nivel = "Radiante"
-
-}
-
-console.log("O Herói de nome " + heroi + " está no nível de " + nivel)
+if (XP*1 < 1001){
+    nivel = "Ferro";
+    console.log(msgInicio + heroi + msgFim + nivel);
+    }
+else if (XP < 2001){
+    nivel = "Bronze";
+    console.log(msgInicio + heroi + msgFim + nivel);
+    }
+else if (XP < 5001){
+    nivel = "Prata";
+    console.log(msgInicio + heroi + msgFim + nivel);
+    }
+else if (XP < 7001){
+    nivel = "Ouro";
+    console.log(msgInicio + heroi + msgFim + nivel);
+    }
+else if (XP < 8001){
+    nivel = "Platina";
+    console.log(msgInicio + heroi + msgFim + nivel);
+    }
+else if (XP < 9001){
+    nivel = "Ascendente";
+    console.log(msgInicio + heroi + msgFim + nivel);
+    }
+else if (XP < 10001){
+    nivel = "Imortal";
+    console.log(msgInicio + heroi + msgFim + nivel);
+    }
+else
+    {
+        nivel = "Radiante";
+        console.log(msgInicio + heroi + msgFim + nivel);
+    }
