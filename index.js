@@ -1,10 +1,10 @@
-/* # 1 Desafio Classificador de nível de Herói
+/*# 1️⃣ Desafio Classificador de nível de Herói
 
-** O que deve ser utilizado **
+**O Que deve ser utilizado**
 
 - Variáveis
 - Operadores
-- Laços de Repetição
+- Laços de repetição
 - Estruturas de decisões
 
 ## Objetivo
@@ -16,15 +16,14 @@ Se XP for entre 1.001 e 2.000 = Bronze
 Se XP for entre 2.001 e 5.000 = Prata
 Se XP for entre 5.001 e 7.000 = Ouro
 Se XP for entre 7.001 e 8.000 = Platina
-Se XP for entre 8.001 e 9.000 = Diamante
 Se XP for entre 8.001 e 9.000 = Ascendente
-Se XP for entre 9.001 e 10.000 = Imortal
+Se XP for entre 9.001 e 10.000= Imortal
 Se XP for maior ou igual a 10.001 = Radiante
 
 ## Saída
 
 Ao final deve se exibir uma mensagem:
-"O Herói de nome **{nome}** está no nível de **{nivel}** */
+"O Herói de nome **{nome}** está no nível de **{nivel}**"*/
 
 let heroi = "Marcelo"
 let xp = 0
@@ -49,10 +48,6 @@ Switch xp{
 
     case <= 8.000
     nivel = "Platina"
-    break
-
-    case <= 9.000
-    nivel = "Diamante"
     break
 
     case <= 9.000
