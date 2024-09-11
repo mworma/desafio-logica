@@ -34,34 +34,28 @@ let msgFim =  " está no nível de ";
 
 if (XP*1 < 1001){
     nivel = "Ferro";
-    console.log(msgInicio + heroi + msgFim + nivel);
     }
 else if (XP < 2001){
     nivel = "Bronze";
-    console.log(msgInicio + heroi + msgFim + nivel);
     }
 else if (XP < 5001){
     nivel = "Prata";
-    console.log(msgInicio + heroi + msgFim + nivel);
     }
 else if (XP < 7001){
     nivel = "Ouro";
-    console.log(msgInicio + heroi + msgFim + nivel);
     }
 else if (XP < 8001){
     nivel = "Platina";
-    console.log(msgInicio + heroi + msgFim + nivel);
     }
 else if (XP < 9001){
     nivel = "Ascendente";
-    console.log(msgInicio + heroi + msgFim + nivel);
     }
 else if (XP < 10001){
     nivel = "Imortal";
-    console.log(msgInicio + heroi + msgFim + nivel);
     }
 else
     {
         nivel = "Radiante";
-        console.log(msgInicio + heroi + msgFim + nivel);
     }
+
+console.log(msgInicio + heroi + msgFim + nivel);
